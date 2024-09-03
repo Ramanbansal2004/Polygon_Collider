@@ -1,7 +1,6 @@
 let inputDirection = { x: 0, y: 0 }
 let lastInputDirection = { x: 0, y: 0 }
-let keysound = new Audio('Keys.mp3');
-window.addEventListener('keydown', e => {keysound.play(); 
+window.addEventListener('keydown', e => { 
   switch (e.key) { 
     case 'ArrowUp':
       if (lastInputDirection.y !== 0) break

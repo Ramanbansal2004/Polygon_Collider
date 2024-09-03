@@ -27,7 +27,7 @@ body {
 .snake {
   background-color: hsl(322, 77%, 46%);
   border: .25vmin solid black;
-  border-radius: 5px;
+  border-radius: 25px;
 }
 .food {
   background-color: hsl(236, 68%, 35%);
@@ -48,17 +48,18 @@ body {
     justify-content:center;
     background-color: rgb(255, 255, 255);
   }
+  
 #scoreBox{
     position: absolute;
     top: 1vh;
     right: 19vw;
     font-size: 39px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Nerko One", cursive;
 }
 #hiscoreBox{
     position: absolute;
     top: 7vh;
     right: 17vw;
     font-size: 39px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Nerko One", cursive;
 }
